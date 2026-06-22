@@ -6,6 +6,7 @@ export default function Footer() {
     facebook: 'https://www.facebook.com/profile.php?id=61591406033261',
     linkedin: 'https://www.linkedin.com/company/friends-software/?viewAsMember=true',
     instagram: 'https://www.instagram.com/friendsoftwaresin/',
+    twitter: 'https://x.com/FriendsSoftwar',
   };
 
   const serviceLinks = [
@@ -178,6 +179,14 @@ export default function Footer() {
                 className="rounded-full border border-white/10 px-4 py-2 text-sm text-brand-gray/80 transition-colors hover:border-brand-yellow/40 hover:text-brand-yellow"
               >
                 Instagram
+              </a>
+              <a
+                href={socialLinks.twitter}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full border border-white/10 px-4 py-2 text-sm text-brand-gray/80 transition-colors hover:border-brand-yellow/40 hover:text-brand-yellow"
+              >
+                Twitter
               </a>
               <a
                 href={socialLinks.linkedin}

@@ -8,6 +8,7 @@ export default function Navbar() {
     facebook: 'https://www.facebook.com/profile.php?id=61591406033261',
     linkedin: 'https://www.linkedin.com/company/friends-software/?viewAsMember=true',
     instagram: 'https://www.instagram.com/friendsoftwaresin/',
+    twitter: 'https://x.com/FriendsSoftwar',
   };
 
   const [isOpen, setIsOpen] = useState(false);
@@ -137,13 +138,15 @@ export default function Navbar() {
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
             </a>
-            <span
-              className="inline-flex opacity-30"
-              aria-label="Twitter link will be added later"
-              title="Twitter link will be added later"
+            <a
+              href={socialLinks.twitter}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:scale-110 transition-transform"
+              aria-label="Twitter"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
-            </span>
+            </a>
             <a
               href={socialLinks.linkedin}
               target="_blank"
