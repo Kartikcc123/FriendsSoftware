@@ -122,9 +122,9 @@ export default function Navbar() {
               <Phone size={14} strokeWidth={2.5} />
               +91 91169 01749
             </a>
-            <a href="mailto:info@friendssoftware.com" className="flex items-center gap-2 hover:opacity-70 transition-opacity">
+            <a href="mailto:friendsoftwarein@gmail.com" className="flex items-center gap-2 hover:opacity-70 transition-opacity">
               <Mail size={14} strokeWidth={2.5} />
-              info@friendssoftware.com
+              friendsoftwarein@gmail.com
             </a>
           </div>
           <div className="flex items-center gap-5">

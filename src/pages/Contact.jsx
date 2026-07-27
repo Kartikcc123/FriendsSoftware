@@ -154,7 +154,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold">Email Address</h4>
-                  <p className="opacity-80">contact@friendssoftware.com</p>
+                  <p className="opacity-80">friendsoftwarein@gmail.com</p>
                 </div>
               </div>
             </div>
